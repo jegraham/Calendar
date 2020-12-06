@@ -11,7 +11,6 @@ public class Calendar {
      * Other Variations:
      * - This could be used to see a years worth of schedules or longer perhaps by days busy in a year. Someting that can grow exponentially
      * - Iterate through the list one at a time to see if there is a match (similar to dominos or anomia) and just modify the existing list as needed.
-     *
      ***/
 
     public static void main(String[] args) {
