@@ -79,7 +79,8 @@ Ideas
 
 2. Add the meetings and adjust the meetings list (in-place) until we hit the end of the list. We know worst, case we have to go to the end of the list and there are no changes. If there is a change we will need to adjust the previous list... Still thinking on how to accomplish this in a better time and memory.
 
-
+3. Iterate through the list one at a time to see if there is a match (similar to dominos or anomia) and just modify the existing list as needed. Memory is O(Constant) and Time will be O(n^2). 
+    
 
 Test Cases 
 --------------------------------------------
