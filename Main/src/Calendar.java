@@ -1,7 +1,7 @@
 public class Calendar {
     /***
-     * Input:
-     * Output:
+     * Input: [Meeting(0, 1), Meeting(3, 5), Meeting(4, 8), Meeting(10, 12), Meeting(9, 10)]
+     * Output: [Meeting(0, 1), Meeting(3, 8), Meeting(9, 12)]
      *
      * Solution Description:
      * Iterate through the originally provided list and add to a new array.
