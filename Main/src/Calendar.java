@@ -1,4 +1,18 @@
 public class Calendar {
+    /***
+     * Input:
+     * Output:
+     *
+     * Solution Description:
+     * Iterate through the originally provided list and add to a new array.
+     * Once the array has been generated, iterate through and find the overlaps.
+     * Return the overlaps and print out (return).
+     *
+     * Other Variations:
+     * - This could be used to see a years worth of schedules or longer perhaps by days busy in a year. Someting that can grow exponentially
+     * - Iterate through the list one at a time to see if there is a match (similar to dominos or anomia) and just modify the existing list as needed.
+     *
+     ***/
 
     public static void main(String[] args) {
         boolean [] isBooked = new boolean [16]; //Reinder 9am to 5pm/17hr
