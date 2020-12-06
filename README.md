@@ -75,9 +75,9 @@ Assumptions
 
 Ideas 
 -------------------------------------------
-1. Read the inputted meeting times and create an array (quick insertion and traversal) and then iterate through the array again to find overlaps.. The default size of the array should be large enough for the 9 to 5pm. (Array Size 16 by my math). This will be Memory of O(1) and Time of O(n). 
+1. Read the inputted meeting times and create an array (quick insertion and traversal) and then iterate through the array again to find overlaps.. The default size of the array should be large enough for the 9 to 5pm. (Array Size 16 by my math). This will be Memory of O(1) and Time of O(n^2). 
 
-
+2. Add the meetings and adjust the meetings list (in-place) until we hit the end of the list. We know worst, case we have to go to the end of the list and there are no changes. If there is a change we will need to adjust the previous list... Still thinking on how to accomplish this in a better time and memory.
 
 
 
